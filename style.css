@@ -10,10 +10,6 @@
             font-family: 'Font', sans-serif;
         }
 
-/* ========================================
-   Header
-======================================== */
-
 .header {
     position: absolute;
     top: 30px;
@@ -38,7 +34,7 @@
 
     font-size: 35px;
 
-    color: #d8d2c5;
+    color: #b0aaa1;
 }
 
 
@@ -78,11 +74,6 @@
 
 }
 
-
-/* ========================================
-   About
-======================================== */
-
 .about {
 
     position: absolute;
@@ -108,11 +99,6 @@
     line-height: 1.4;
 }
 
-
-/* ========================================
-   Profile
-======================================== */
-
 .profile {
 
     position: absolute;
@@ -123,11 +109,6 @@
     width: 400px;
     height: auto;
 }
-
-
-/* ========================================
-   SNS
-======================================== */
 
 .sns {
 
@@ -179,11 +160,6 @@
     opacity: 0.6;
 }
 
-
-/* ========================================
-   配布網站
-======================================== */
-
 .distribute {
 
     position: absolute;
@@ -207,11 +183,6 @@
         rotate(-2deg)
         scale(1.05);
 }
-
-
-/* ========================================
-   Works
-======================================== */
 
 .works {
 
@@ -237,6 +208,20 @@
         scale(1.05);
 }
 
+.footer {
+    position: relative;
+
+    width: 100%;
+
+    margin-top: 780px;
+    padding-bottom: 25px;
+
+    text-align: center;
+
+    color: #b0aaa1;
+    font-size: 15px;
+}
+
 @media screen and (max-width: 768px) {
 
     .header {
@@ -247,7 +232,6 @@
     .header nav {
         font-size: 25px;
         gap: 10px;
-        transform: translateX(-21px);
     }
 
     .about {
@@ -255,7 +239,7 @@
         left: 20px;
         top: 100px;
 
-        width: 80%;
+        width: 90%;
 
     }
 
@@ -264,16 +248,16 @@
         left: 20px;
         top: 90px;
 
-        width: 80%;
+        width: 90%;
 
     }
 
     .about{
 
         left: 20px;
-        top: 300px;
+        top: 330px;
 
-        width: 80%;
+        width: 90%;
 
     }
 
@@ -281,7 +265,7 @@
 
         left: 20px;
         top: 30px;
-        font-size: 12px;
+        font-size: 14px;
 
         width: calc(100% - 40px);
 
@@ -290,9 +274,9 @@
     .sns {
 
         left: 20px;
-        top: 600px;
+        top: 670px;
 
-        width: 80%;
+        width: 90%;
 
     }
 
@@ -306,8 +290,8 @@
 
     .distribute {
 
-        left: 20px;
-        top: 720px;
+        left: 40px;
+        top: 790px;
 
         width: 40%;
 
@@ -315,11 +299,16 @@
 
     .works {
 
-        left: 170px;
-        top: 850px;
+        left: 230px;
+        top: 880px;
 
         width: 40%;
 
+    }
+
+    .footer {
+        font-size: 13px;
+        margin-top: 1080px;
     }
 
 }
