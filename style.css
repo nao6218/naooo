@@ -122,20 +122,18 @@
 }
 
 .sns-links {
-
     position: absolute;
 
     left: 60px;
     right: 60px;
-    bottom: 55px;
+    bottom: 40px;
 
     display: flex;
-
-    justify-content: space-around;
-
+    justify-content: center;
     align-items: center;
-}
 
+    gap: 40px;
+}
 
 .sns-links a {
 
@@ -157,7 +155,6 @@
 
     transform: translateY(-4px);
 
-    opacity: 0.6;
 }
 
 .distribute {
@@ -265,7 +262,7 @@
 
         left: 20px;
         top: 30px;
-        font-size: 14px;
+        font-size: 13px;
 
         width: calc(100% - 40px);
 
@@ -284,13 +281,13 @@
 
         left: 20px;
         right: 20px;
-        bottom: 35px;
+        bottom: 25px;
 
     }
 
     .distribute {
 
-        left: 40px;
+        left: 20px;
         top: 790px;
 
         width: 40%;
@@ -299,7 +296,7 @@
 
     .works {
 
-        left: 230px;
+        left: 200px;
         top: 880px;
 
         width: 40%;
